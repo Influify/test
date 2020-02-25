@@ -4,9 +4,6 @@ module.exports = ({ shopName, accessToken }) => ({
   siteMetadata: {
     siteUrl: 'muslesofficial.com',
   },
-  require('dotenv').config({
-    path: `.env`,
-  });
   module.exports = {
   plugins: [
     {
