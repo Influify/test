@@ -9,8 +9,8 @@ module.exports = ({ shopName, accessToken }) => ({
     {
       resolve: '@gatsbystorefront/gatsby-theme-storefront-shopify',
       options: {
-        shopName: process.env.GATSBY_SHOP_NAME,
-        accessToken: process.env.GATSBY_SHOPIFY_ACCESS_TOKEN,
+        shopName: 'musles-apparel.myshopify.com',
+        accessToken: '789729ba46852f532e4e5e2f7a18c605',
         basePath: '/',
       },
     },
